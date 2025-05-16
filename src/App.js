@@ -8,7 +8,7 @@ function App() {
   const [data, Setdata] = useState(null);
   return (
     <div>
-      <h1>API FETCH</h1>
+      <h1>API FETCH | Blogs</h1>
       {data ? data.map((arr) => <li>{arr.title}</li>) : <>data not found</>}
     </div>
   );
